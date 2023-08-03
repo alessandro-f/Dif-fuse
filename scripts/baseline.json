@@ -1,0 +1,17 @@
+{
+    "batch_size": 64,
+    "eval_batch_size": 64,
+    "max_epochs": 200,
+    "seed": 1,
+    "logs_path": "log",
+    "resume": false,
+    "save": 1,
+    "save_images": 0,
+    "num_gpus_to_use": 2,
+    "optim": "adam",
+    "learning_rate": 3e-4,
+    "scheduler": "CosineAnnealing",
+    "lr_min": 1.0000000000000001e-07,
+    "weight_decay": 5e-05,
+    "momentum": 0.9
+}
