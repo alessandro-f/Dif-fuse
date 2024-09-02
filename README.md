@@ -1,9 +1,9 @@
 # Dif-fuse
-Work-in-progress Pytorch repository for the paper “Diffusion Models for Counterfactual Generation
+Pytorch repository for the paper “Diffusion Models for Counterfactual Generation
 and Anomaly Detection in Brain Images”. An official version will be released soon.
 
 
-To pre-process BraTS data, after placing the nifti files in the folder *data/brats2021*, you can run:
+To pre-process BraTS data, after placing the NIfTI files in the folder *data/brats2021*, you can run:
 ```
 python scripts/brats-preprocess.py 
 ```
